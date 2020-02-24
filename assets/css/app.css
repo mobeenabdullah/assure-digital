@@ -10654,6 +10654,10 @@ a.text-dark:hover, a.text-dark:focus {
           transition-duration: .5s;
 }
 
+.case-studies-section {
+  margin-bottom: 140px;
+}
+
 .case-studies-section .case-study-box-wrapper .case-study-box .btn {
   max-width: 368px;
   margin-bottom: 15px;
@@ -10676,4 +10680,46 @@ a.text-dark:hover, a.text-dark:focus {
 
 .case-studies-section .case-study-box-wrapper#case-study-box-2 {
   margin-top: 290px;
+}
+
+.growth-journey-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.growth-journey-section .growth-journey-image {
+  max-width: 1466px;
+  height: 860px;
+}
+
+.growth-journey-section .growth-journey-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.growth-journey-section .growth-journey-heading {
+  position: absolute;
+  top: 144px;
+  right: 0;
+  padding: 80px;
+  width: 586px;
+  height: 572px;
+  background-color: #2C3442;
+}
+
+.growth-journey-section .growth-journey-heading h3 {
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.growth-journey-section .growth-journey-heading .btn {
+  position: absolute;
+  bottom: -50px;
 }

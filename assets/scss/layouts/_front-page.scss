@@ -251,6 +251,7 @@
 
 // CASE STUDIES SECTION
 .case-studies-section {
+  margin-bottom: 140px;
 
   .case-study-box-wrapper {
 
@@ -279,6 +280,47 @@
 
     &#case-study-box-2 {
       margin-top: 290px;
+    }
+  }
+}
+
+// GROWTH JOURNEY SECTION
+.growth-journey-section {
+  position: relative;
+  overflow: hidden;
+
+  .growth-journey-image {
+    max-width: 1466px;
+    height: 860px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .growth-journey-heading {
+    position: absolute;
+    top: 144px;
+    right: 0;
+    padding: 80px;
+    width: 586px;
+    height: 572px;
+    background-color: $secondary-color;
+
+    h3 {
+      font-size: 52px;
+      line-height: 72px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: $white-color;
+    }
+
+    .btn {
+      position: absolute;
+      bottom: -50px;
     }
   }
 }
