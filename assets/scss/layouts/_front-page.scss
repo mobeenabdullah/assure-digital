@@ -252,5 +252,33 @@
 // CASE STUDIES SECTION
 .case-studies-section {
 
-  .case-study-box {}
+  .case-study-box-wrapper {
+
+    .case-study-box {
+
+      .btn {
+        max-width: 368px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 300;
+
+        .btn-text {
+          margin-right: 20px;
+        }
+      }
+
+      p {
+        max-width: 490px;
+        padding-left: 46px;
+        font-size: 22px;
+        line-height: 42px;
+        letter-spacing: 1px;
+        color: $black-color-2;
+      }
+    }
+
+    &#case-study-box-2 {
+      margin-top: 290px;
+    }
+  }
 }

@@ -25,6 +25,15 @@
     }
   }
 
+  &.btn-blue {
+    background-color: $secondary-color;
+    color: $white-color;
+
+    &:hover {
+      background-color: darken($secondary-color, 5%);
+    }
+  }
+
   &.btn-collapsed {
     position: relative;
     width: 100px;
