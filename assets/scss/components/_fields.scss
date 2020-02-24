@@ -1,0 +1,74 @@
+.btn {
+  padding: 35px 23px;
+  width: 458px;
+  font-size: 30px;
+  line-height: 49px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 0;
+  color: #2C3442;
+  overflow: hidden;
+
+  &.btn-yellow {
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: darken($primary-color, 5%);
+    }
+  }
+
+  &.btn-gray {
+    background-color: $gray-color-2;
+
+    &:hover {
+      background-color: darken($gray-color-2, 5%);
+    }
+  }
+
+  &.btn-collapsed {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 1;
+
+    .btn-text {
+      display: none;
+    }
+
+    &:hover {
+      max-width: 458px;
+      width: 100%;
+
+      .btn-text {
+        display: inline-block;
+      }
+
+    }
+  }
+
+  &:active, &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .ripple-effect{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: $white-color;
+    animation: ripple-animation 2s;
+  }
+
+}
+
+@keyframes ripple-animation {
+  from {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(100);
+    opacity: 0;
+  }
+}

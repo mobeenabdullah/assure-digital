@@ -1,0 +1,256 @@
+// HERO SECTION
+.hero-section {
+
+  .hero-left {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: calc( 100vh - 159px );
+
+    h2 {
+      position: relative;
+      padding: 0 61px;
+      max-width: 756px;
+      font-size: 60px;
+      line-height: 86px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      color: $secondary-color;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -30px;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $primary-color;
+      }
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  .hero-right {
+    @extend .hero-left;
+    background-color: $secondary-color;
+
+    p {
+      position: relative;
+      padding: 0 178px;
+      font-size: 22px;
+      line-height: 42px;
+      letter-spacing: 0.46px;
+      font-weight: 300;
+      color: $white-color;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -30px;
+        left: 131px;
+        width: 30px;
+        height: 30px;
+        background-color: $primary-color;
+      }
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+// VIDEO SECTION
+.video-section {
+  padding: 140px 0;
+
+  .video-content-wrapper {
+    text-align: center;
+
+    .video-heading {
+      position: absolute;
+      top: 275px;
+      left: 0;
+      width: 586px;
+      height: 520px;
+      background-color: $secondary-color;
+      z-index: 2;
+
+      h4 {
+        padding: 140px 70px;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $white-color;
+        text-align: left;
+      }
+
+      .btn {
+        position: absolute;
+        bottom: -50px;
+        left: 60px;
+      }
+    }
+
+    .video-player-wrapper {
+      max-width: 1173px;
+      margin: 0 auto;
+
+      .video-trigger {
+        position: relative;
+        text-align: center;
+
+        .trigger-icon {
+          position: absolute;
+          top: calc( 50% - 55px);
+          left: 0;
+          right: 0;
+          display: inline-block;
+          width: 110px;
+          height: 110px;
+          margin: 0 auto;
+          text-align: center;
+          line-height: 110px;
+          font-size: 48px;
+          background-color: transparent;
+          color: $white-color;
+          border: 5px solid $white-color;
+          cursor: pointer;
+          z-index: 2;
+
+          &:hover {
+            background-color: $white-color;
+            color: $secondary-color;
+          }
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      p {
+        padding: 0;
+        margin-top: 62px;
+        max-width: 810px;
+        float: right;
+        text-align: left;
+        font-size: 22px;
+        line-height: 42px;
+        letter-spacing: .7px;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+// STAGE SECTION
+.stage-section {
+  margin-bottom: 140px;
+
+  .stage-box {
+    position: relative;
+    padding: 60px;
+    color: $secondary-color;
+
+    h4 {
+      margin-bottom: 50px;
+      padding-left: 66px;
+      font-size: 34px;
+      line-height: 56px;
+      letter-spacing: 1px;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 42px;
+      opacity: 0;
+    }
+
+    .btn {
+      position: absolute;
+      top: 0;
+      left: 60px;
+      padding: 0;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background-color: $secondary-color;
+      color: $white-color;
+
+      i.fa {
+        transform: rotate(45deg);
+      }
+    }
+
+    &.stage-box-active {
+      width: 100%;
+      height: 522px;
+      color: $white-color;
+
+      h4 {
+        padding-left: 0;
+        font-size: 40px;
+        line-height: 58px;
+        letter-spacing: 1px;
+        font-weight: bold;
+      }
+
+      p {
+        opacity: 1;
+      }
+
+      .btn {
+        top: inherit;
+        bottom: -50px;
+        left: 60px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+        background-color: $primary-color;
+        color: $secondary-color;
+
+        i.fa {
+          transform: rotate(0deg);
+        }
+      }
+
+      &:before {
+        width: 100%;
+        height: 100%;
+        background-color: $secondary-color;
+        z-index: -1;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 0;
+      background-color: transparent;
+      transition-duration: .5s;
+    }
+  }
+}
+
+// CASE STUDIES SECTION
+.case-studies-section {
+
+  .case-study-box {}
+}

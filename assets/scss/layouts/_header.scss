@@ -1,0 +1,57 @@
+// HEADER
+.header {
+  overflow: hidden;
+
+  .brand-logo {
+    float: left;
+  }
+
+  .header-menu {
+    float: right;
+
+    .menu-icon {
+      cursor: pointer;
+      margin: 69px auto 0 auto;
+      padding-left: 1.25em;
+      position: relative;
+      width: 42px;
+      height: 28px;
+
+      .menu-global {
+        backface-visibility: hidden;
+        position: absolute;
+        left: 0;
+        border-top: 5px solid $secondary-color;
+        width: 100%;
+        transition: 0.3s;
+
+        &.menu-top {
+          top: 0;
+        }
+        &.menu-middle {
+          top: 12px;
+        }
+        &.menu-bottom {
+          top: 24px;
+        }
+
+        &.menu-top-click {
+          backface-visibility: hidden;
+          top: 15px;
+          transform: rotate(90deg);
+          transition: 0.3s 0.3s;
+        }
+        &.menu-middle-click {
+          opacity: 0;
+          transition: 0.3s 0.3s;
+        }
+        &.menu-bottom-click {
+          backface-visibility: hidden;
+          top: 15px;
+          transform: rotate(-360deg);
+          transition: 0.3s 0.3s;
+        }
+      }
+    }
+  }
+}

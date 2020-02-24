@@ -1,0 +1,33 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+
+.section-heading {
+  position: relative;
+  padding: 0 61px;
+  max-width: 756px;
+  margin-top: 35px;
+  margin-bottom: 96px;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: $secondary-color;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: $primary-color;
+  }
+}
+
+// Container
+@media screen and (min-width: 1759px) {
+
+  .container {
+    max-width: 1759px;
+  }
+}
