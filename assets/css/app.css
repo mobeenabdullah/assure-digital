@@ -10366,12 +10366,29 @@ html {
 
 .header {
   position: relative;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
   overflow: hidden;
   z-index: 3;
 }
 
 .header .brand-logo {
   float: left;
+}
+
+.header .brand-logo a {
+  display: inline-block;
+}
+
+.header .brand-logo a img {
+  width: 159px;
+  height: 159px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 .header .header-menu {
@@ -10434,6 +10451,25 @@ html {
           transform: rotate(-360deg);
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
+}
+
+.header.header-fixed {
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.header.header-fixed .brand-logo a img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.header.header-fixed .header-menu .menu-icon {
+  margin-top: 35px;
 }
 
 .footer {

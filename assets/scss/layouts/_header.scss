@@ -1,11 +1,24 @@
 // HEADER
 .header {
   position: relative;
+  transition-duration: .3s;
   overflow: hidden;
   z-index: 3;
 
   .brand-logo {
     float: left;
+
+    a {
+      display: inline-block;
+
+      img {
+        width: 159px;
+        height: 159px;
+        object-fit: cover;
+        object-position: center;
+        transition-duration: .3s;
+      }
+    }
   }
 
   .header-menu {
@@ -53,6 +66,32 @@
           transform: rotate(-360deg);
           transition: 0.3s 0.3s;
         }
+      }
+    }
+  }
+
+  &.header-fixed {
+    position: fixed;
+    width: 100%;
+    background-color: $white-color;
+
+    .brand-logo {
+
+      a {
+
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+
+    .header-menu {
+
+      .menu-icon {
+        margin-top: 35px;
       }
     }
   }

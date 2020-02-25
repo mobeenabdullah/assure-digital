@@ -116,4 +116,14 @@ $("document").ready(function () {
     $('.main-navigation').toggleClass('hide-navigation');
   });
 
+  // STICKY MENU
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 159) {
+      $(".header").addClass("header-fixed");
+    } else {
+      $(".header").removeClass("header-fixed");
+    }
+  });
+
 });
