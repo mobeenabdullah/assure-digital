@@ -10772,7 +10772,17 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .difference-section {
-  padding: 140px 0;
+  padding: 140px 0 63px 0;
+}
+
+.difference-section .section-heading-wrapper {
+  display: -webkit-box;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .difference-section .difference-box {
@@ -10810,4 +10820,149 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 0.4px;
   font-weight: 300;
   color: #FFFFFF;
+}
+
+.our-capabilities-section {
+  padding: 80px 0;
+  background-color: #2C3442;
+}
+
+.our-capabilities-section .section-heading {
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.our-capabilities-section .our-capabilities-left {
+  margin-top: 96px;
+}
+
+.our-capabilities-section .our-capabilities-left .capabilities-image img {
+  max-width: 877px;
+  width: 100%;
+  height: auto;
+}
+
+.our-capabilities-section .our-capabilities-right {
+  padding-left: 140px;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper {
+  margin-bottom: 35px;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper h4 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 {
+  position: relative;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn {
+  padding: 0;
+  font-size: 28px;
+  line-height: 60px;
+  letter-spacing: 0.7px;
+  font-weight: normal;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn .accordion-trigger-icon, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn .accordion-trigger-icon {
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #FFC910;
+  font-size: 18px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn .accordion-trigger-icon i.fa, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn .accordion-trigger-icon i.fa {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn .accordion-trigger-icon.accordion-trigger-icon-active i.fa, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn .accordion-trigger-icon.accordion-trigger-icon-active i.fa {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-body {
+  font-size: 22px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.contact-section {
+  padding-top: 140px;
+}
+
+.contact-section .section-heading {
+  margin-top: 186px;
+}
+
+.contact-section .contact-form .form-field-group {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.contact-section .contact-form .form-field-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  color: #2C3442;
+}
+
+.contact-section .contact-form .form-field-group input[type="text"], .contact-section .contact-form .form-field-group input[type="email"] {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 22px;
+  line-height: 37px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  border-bottom: 1px solid #979797;
+  outline: none;
+}
+
+.contact-section .contact-form .form-field-group.field-focused label {
+  top: -30px;
+  font-size: 12px;
+}
+
+.contact-section .contact-form .form-field-button {
+  text-align: right;
 }

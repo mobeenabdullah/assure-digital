@@ -378,7 +378,14 @@
 
 // DIFFERENCE SECTION
 .difference-section {
-  padding: 140px 0;
+  padding: 140px 0 63px 0;
+
+  .section-heading-wrapper {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
   .difference-box {
     padding: 60px;
@@ -420,38 +427,158 @@
 
 // OUR CAPABILITIES SECTION
 .our-capabilities-section {
+  padding: 80px 0;
+  background-color: $secondary-color;
+
+  .section-heading {
+    margin-bottom: 0;
+    color: $white-color;
+  }
 
   .our-capabilities-left {
+    margin-top: 96px;
 
     .capabilities-image {
 
-      img {}
+      img {
+        max-width: 877px;
+        width: 100%;
+        height: auto;
+      }
     }
   }
 
   .our-capabilities-right {
+    padding-left: 140px;
 
     .capabilities-list-wrapper {
+      margin-bottom: 35px;
 
-      h4 {}
+      h4 {
+        margin-bottom: 10px;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: $white-color;
+      }
 
-      .capabilities-list {}
+      .capabilities-list {
+
+        .card {
+          padding: 0;
+          background-color: transparent;
+          border: none;
+          border-radius: 0;
+          color: $white-color;
+
+          .card-header {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            border-radius: 0;
+
+            h2, h5 {
+              position: relative;
+
+              .btn {
+                padding: 0;
+                font-size: 28px;
+                line-height: 60px;
+                letter-spacing: 0.7px;
+                font-weight: normal;
+                text-align: left;
+                color: $white-color;
+                text-decoration: none;
+
+                .accordion-trigger-icon {
+                  display: inline-block;
+                  margin-right: 20px;
+                  width: 30px;
+                  height: 30px;
+                  line-height: 30px;
+                  text-align: center;
+                  background-color: $primary-color;
+                  font-size: 18px;
+                  transition-duration: .3s;
+
+                  i.fa {
+                    transition-duration: .3s;
+                  }
+
+                  &.accordion-trigger-icon-active {
+
+                    i.fa {
+                      transform: rotate(45deg);
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .card-body {
+            font-size: 22px;
+            line-height: 42px;
+            letter-spacing: 0.4px;
+            font-weight: 300;
+            color: $white-color;
+          }
+        }
+      }
     }
   }
 }
 
 // CONTACT SECTION
 .contact-section {
+  padding-top: 140px;
+
+  .section-heading {
+    margin-top: 186px;
+  }
 
   .contact-form {
 
     .form-field-group {
+      position: relative;
+      margin-bottom: 90px;
 
-      label {}
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 22px;
+        line-height: 37px;
+        letter-spacing: 0.6px;
+        font-weight: 500;
+        transition-duration: .3s;
+        color: $secondary-color;
+      }
 
-      input[type="text"], input[type="email"] {}
+      input[type="text"], input[type="email"] {
+        display: block;
+        width: 100%;
+        border: none;
+        font-size: 22px;
+        line-height: 37px;
+        letter-spacing: 0.6px;
+        font-weight: 500;
+        border-bottom: 1px solid $gray-color-5;
+        outline: none;
+      }
 
-      .btn {}
+      &.field-focused {
+
+        label {
+          top: -30px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .form-field-button {
+      text-align: right;
     }
   }
 }

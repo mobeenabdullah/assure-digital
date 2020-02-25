@@ -45,7 +45,7 @@ $("document").ready(function () {
   Menu.init();
 
   // RIPPLE BUTTON EFFECT
-  $('.btn').on('click', function (event) {
+  $('.btn-ripple').on('click', function (event) {
     event.preventDefault();
 
     var $div = $('<div/>'),
@@ -89,6 +89,26 @@ $("document").ready(function () {
     arrows:false,
     slidesToShow: 1,
     slidesToScroll: 1
+  });
+
+  // CAPABILITIES TRIGGER
+  $('.card .btn').click(function () {
+    $('.card .btn .accordion-trigger-icon').removeClass('accordion-trigger-icon-active');
+    $(' .accordion-trigger-icon', this).toggleClass('accordion-trigger-icon-active');
+  });
+
+  $('.contact-form .form-field-group .input-field').focusin(function () {
+    var field_length = $(this).val().length;
+    if (field_length < 1) {
+      $(this).parent().addClass('field-focused');
+    }
+  });
+
+  $('.contact-form .form-field-group .input-field').focusout(function () {
+    var field_length = $(this).val().length;
+    if (field_length < 1) {
+      $(this).parent().removeClass('field-focused');
+    }
   });
 
 });
