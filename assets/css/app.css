@@ -10176,14 +10176,18 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+html {
+  font-size: 10px;
+}
+
 .section-heading {
   position: relative;
   padding: 0 61px;
   max-width: 756px;
   margin-top: 35px;
   margin-bottom: 96px;
-  font-size: 52px;
-  line-height: 72px;
+  font-size: 5.2rem;
+  line-height: 7.2rem;
   letter-spacing: 1px;
   font-weight: bold;
   color: #2C3442;
@@ -10203,6 +10207,63 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     max-width: 1759px;
   }
+}
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  opacity: 1;
+  z-index: 2;
+}
+
+.main-navigation .menu-wrapper {
+  margin-top: 223px;
+}
+
+.main-navigation .menu-wrapper .menu-items {
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-navigation .menu-wrapper .menu-items li a {
+  position: relative;
+  display: inline-block;
+  padding-left: 71px;
+  font-size: 52px;
+  line-height: 127px;
+  letter-spacing: 1px;
+  color: #2C3442;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.main-navigation .menu-wrapper .menu-items li a:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #FFC910;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  z-index: -1;
+}
+
+.main-navigation .menu-wrapper .menu-items li a:hover:before {
+  width: 100%;
+}
+
+.main-navigation.hide-navigation {
+  left: -100%;
+  opacity: 0;
 }
 
 .btn {
@@ -10304,7 +10365,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header {
+  position: relative;
   overflow: hidden;
+  z-index: 3;
 }
 
 .header .brand-logo {
@@ -10316,23 +10379,23 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header .header-menu .menu-icon {
-  cursor: pointer;
+  position: relative;
   margin: 69px auto 0 auto;
   padding-left: 1.25em;
-  position: relative;
   width: 42px;
   height: 28px;
+  cursor: pointer;
 }
 
 .header .header-menu .menu-icon .menu-global {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
   position: absolute;
   left: 0;
-  border-top: 5px solid #2C3442;
   width: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-top: 5px solid #2C3442;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .header .header-menu .menu-icon .menu-global.menu-top {
@@ -10348,13 +10411,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header .header-menu .menu-icon .menu-global.menu-top-click {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
   top: 15px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   -webkit-transition: 0.3s 0.3s;
   transition: 0.3s 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .header .header-menu .menu-icon .menu-global.menu-middle-click {

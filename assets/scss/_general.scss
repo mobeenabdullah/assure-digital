@@ -1,14 +1,18 @@
 // Google Font
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
 
+html {
+  font-size: 10px;
+}
+
 .section-heading {
   position: relative;
   padding: 0 61px;
   max-width: 756px;
   margin-top: 35px;
   margin-bottom: 96px;
-  font-size: 52px;
-  line-height: 72px;
+  font-size: 5.2rem;
+  line-height: 7.2rem;
   letter-spacing: 1px;
   font-weight: bold;
   color: $secondary-color;

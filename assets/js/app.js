@@ -97,18 +97,23 @@ $("document").ready(function () {
     $(' .accordion-trigger-icon', this).toggleClass('accordion-trigger-icon-active');
   });
 
+  // CONTACT FORM FIELDS ANIMATION
   $('.contact-form .form-field-group .input-field').focusin(function () {
     var field_length = $(this).val().length;
     if (field_length < 1) {
       $(this).parent().addClass('field-focused');
     }
   });
-
   $('.contact-form .form-field-group .input-field').focusout(function () {
     var field_length = $(this).val().length;
     if (field_length < 1) {
       $(this).parent().removeClass('field-focused');
     }
+  });
+
+  // MAIN NAVIGATION
+  $('.menu-icon').click(function () {
+    $('.main-navigation').toggleClass('hide-navigation');
   });
 
 });

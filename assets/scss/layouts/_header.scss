@@ -1,6 +1,8 @@
 // HEADER
 .header {
+  position: relative;
   overflow: hidden;
+  z-index: 3;
 
   .brand-logo {
     float: left;
@@ -10,20 +12,20 @@
     float: right;
 
     .menu-icon {
-      cursor: pointer;
+      position: relative;
       margin: 69px auto 0 auto;
       padding-left: 1.25em;
-      position: relative;
       width: 42px;
       height: 28px;
+      cursor: pointer;
 
       .menu-global {
-        backface-visibility: hidden;
         position: absolute;
         left: 0;
-        border-top: 5px solid $secondary-color;
         width: 100%;
         transition: 0.3s;
+        border-top: 5px solid $secondary-color;
+        backface-visibility: hidden;
 
         &.menu-top {
           top: 0;
@@ -36,10 +38,10 @@
         }
 
         &.menu-top-click {
-          backface-visibility: hidden;
           top: 15px;
           transform: rotate(90deg);
           transition: 0.3s 0.3s;
+          backface-visibility: hidden;
         }
         &.menu-middle-click {
           opacity: 0;
