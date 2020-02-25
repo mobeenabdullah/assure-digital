@@ -332,12 +332,31 @@
   .testimonials-slider {
 
     .testimonial-slide {
+      text-align: center;
 
-      .testimonial-image {}
+      .testimonial-image {
+        display: inline-block;
+        margin-bottom: 52px;
+        width: 208px;
+        height: 208px;
+        object-fit: cover;
+        object-position: center;
+      }
 
-      .testimonial-text {}
+      .testimonial-text {
+        max-width: 735px;
+        margin: 0 auto 20px auto;
+        font-size: 22px;
+        line-height: 42px;
+        color: $secondary-color;
+      }
 
-      .testimonial-reviewer {}
+      .testimonial-reviewer {
+        margin-bottom: 43px;
+        font-size: 22px;
+        line-height: 42px;
+        color: $secondary-color;
+      }
     }
   }
 }
@@ -346,19 +365,56 @@
 .clients-section {
 
   .client-box {
+    text-align: center;
 
-    img {}
+    img {
+      width: 208px;
+      height: 208px;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 }
 
 // DIFFERENCE SECTION
 .difference-section {
+  padding: 140px 0;
 
   .difference-box {
+    padding: 60px;
+    margin-bottom: 77px;
+    width: 586px;
+    height: 520px;
+    background-color: $secondary-color;
 
-    h5 {}
+    h5 {
+      position: relative;
+      padding-left: 55px;
+      margin-bottom: 43px;
+      font-size: 40px;
+      line-height: 58px;
+      letter-spacing: 1px;
+      font-weight: bold;
+      color: $white-color;
 
-    p {}
+      &:before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $primary-color;
+      }
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 42px;
+      letter-spacing: 0.4px;
+      font-weight: 300;
+      color: $white-color;
+    }
   }
 }
 

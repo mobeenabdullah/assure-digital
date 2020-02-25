@@ -10727,3 +10727,87 @@ a.text-dark:hover, a.text-dark:focus {
 .testimonials-section {
   padding: 140px 0 90px 0;
 }
+
+.testimonials-section .testimonials-slider .testimonial-slide {
+  text-align: center;
+}
+
+.testimonials-section .testimonials-slider .testimonial-slide .testimonial-image {
+  display: inline-block;
+  margin-bottom: 52px;
+  width: 208px;
+  height: 208px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.testimonials-section .testimonials-slider .testimonial-slide .testimonial-text {
+  max-width: 735px;
+  margin: 0 auto 20px auto;
+  font-size: 22px;
+  line-height: 42px;
+  color: #2C3442;
+}
+
+.testimonials-section .testimonials-slider .testimonial-slide .testimonial-reviewer {
+  margin-bottom: 43px;
+  font-size: 22px;
+  line-height: 42px;
+  color: #2C3442;
+}
+
+.clients-section .client-box {
+  text-align: center;
+}
+
+.clients-section .client-box img {
+  width: 208px;
+  height: 208px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.difference-section {
+  padding: 140px 0;
+}
+
+.difference-section .difference-box {
+  padding: 60px;
+  margin-bottom: 77px;
+  width: 586px;
+  height: 520px;
+  background-color: #2C3442;
+}
+
+.difference-section .difference-box h5 {
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 43px;
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.difference-section .difference-box h5:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #FFC910;
+}
+
+.difference-section .difference-box p {
+  font-size: 22px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
