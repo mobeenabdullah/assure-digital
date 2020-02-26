@@ -300,3 +300,326 @@
     }
   }
 }
+
+@media screen and (max-width: 812px) {
+
+  // HERO SECTION
+  .hero-section {
+
+    .pr-0 {
+      padding-left: 0;
+    }
+
+    .pl-0 {
+      padding-right: 0;
+    }
+
+    .hero-left {
+      height: 300px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 80px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+
+    .hero-right {
+      height: 300px;
+      text-align: center;
+
+      p {
+        margin-bottom: 80px;
+        padding: 0 80px;
+
+        &:before {
+          left: 20px;
+        }
+      }
+    }
+  }
+
+  // VIDEO SECTION
+  .video-section {
+    padding: 20px 0;
+
+    .video-content-wrapper {
+
+      .video-heading {
+        position: relative;
+        top: 20px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        .btn {
+          position: inherit;
+          bottom: 20px;
+          margin-bottom: 20px;
+        }
+
+        h4 {
+          padding: 40px 60px;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+    }
+
+    .video-player-wrapper {
+      margin-top: 20px !important;
+
+      .video-trigger {
+
+        .trigger-icon {}
+      }
+
+      p {
+        padding: 20px !important;
+        margin-top: 0 !important;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        text-align: center !important;
+      }
+    }
+  }
+
+  // STAGE SECTION
+  .stage-section {
+    margin-bottom: 0;
+
+    .section-heading {
+      margin-bottom: 35px;
+      max-width: 100%;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .stage-box {
+      margin-bottom: 100px;
+      padding: 40px;
+      height: 100px !important;
+
+      h4 {
+
+      }
+
+      p {
+
+      }
+
+      .btn {
+
+      }
+
+      &.stage-box-active {
+        height: 320px !important;
+      }
+    }
+  }
+
+  // CASE STUDIES SECTION
+  .case-studies-section {
+
+    .section-heading {
+      margin-bottom: 35px;
+      max-width: 100%;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .case-study-box-wrapper {
+      margin-bottom: 30px;
+      text-align: center;
+
+      .case-study-box {
+
+        p {
+        }
+      }
+
+      &#case-study-box-2 {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // GROWTH JOURNEY SECTION
+  .growth-journey-section {
+
+    .col-12 {
+      padding: 0;
+    }
+
+    .growth-journey-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .growth-journey-heading {
+      position: relative;
+      top: 0;
+      padding: 40px;
+      width: 100%;
+      height: auto;
+      text-align: center;
+
+      h3 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      .btn {
+        position: inherit;
+      }
+    }
+  }
+
+  // CLIENTS SECTION
+  .clients-section {
+
+    .client-box {
+
+      img {}
+    }
+  }
+
+  // DIFFERENCE SECTION
+  .difference-section {
+
+    .section-heading-wrapper {
+
+      .section-heading {
+        margin-bottom: 35px;
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+
+    .difference-box {
+      padding: 40px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: auto;
+
+      h5 {
+        padding-left: 40px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+
+        &:before {
+          top: 5px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  // OUR CAPABILITIES SECTION
+  .our-capabilities-section {
+    padding: 40px 0;
+
+    .our-capabilities-left {
+
+      .capabilities-image {
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .our-capabilities-right {
+      margin-top: 50px;
+      padding-left: 20px;
+
+      .capabilities-list-wrapper {
+        margin-bottom: 25px;
+
+        h4 {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  // CONTACT SECTION
+  .contact-section {
+    padding-top: 0;
+
+    .section-heading {
+      margin-top: 100px;
+      margin-bottom: 35px;
+    }
+  }
+
+  // FOOTER
+  .footer {
+    margin-top: 50px;
+
+    .footer-logo {
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    .footer-widgets {
+
+      .widget-box {
+        margin: 50px 0;
+        text-align: center;
+
+        h4 {
+          margin-bottom: 30px;
+          font-size: 24px;
+        }
+
+        ul {
+
+          li {
+            font-size: 18px;
+            line-height: 24px
+          }
+        }
+      }
+    }
+  }
+
+  // MAIN NAVIGATION
+  .main-navigation {
+
+    .menu-wrapper {
+      margin-top: 180px;
+
+      .menu-items {
+
+        li {
+
+          a {
+            padding-left: 60px;
+            font-size: 30px;
+            line-height: 80px;
+
+            &:before {
+              top: 30px;
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

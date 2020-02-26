@@ -11230,3 +11230,199 @@ html {
     height: 20px;
   }
 }
+
+@media screen and (max-width: 812px) {
+  .hero-section .pr-0 {
+    padding-left: 0;
+  }
+  .hero-section .pl-0 {
+    padding-right: 0;
+  }
+  .hero-section .hero-left, .hero-section .hero-right {
+    height: 300px;
+    text-align: center;
+  }
+  .hero-section .hero-left h2, .hero-section .hero-right h2 {
+    margin-bottom: 80px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .hero-section .hero-right {
+    height: 300px;
+    text-align: center;
+  }
+  .hero-section .hero-right p {
+    margin-bottom: 80px;
+    padding: 0 80px;
+  }
+  .hero-section .hero-right p:before {
+    left: 20px;
+  }
+  .video-section {
+    padding: 20px 0;
+  }
+  .video-section .video-content-wrapper .video-heading {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .video-section .video-content-wrapper .video-heading .btn {
+    position: inherit;
+    bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .video-section .video-content-wrapper .video-heading h4 {
+    padding: 40px 60px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .video-section .video-player-wrapper {
+    margin-top: 20px !important;
+  }
+  .video-section .video-player-wrapper p {
+    padding: 20px !important;
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+  }
+  .stage-section {
+    margin-bottom: 0;
+  }
+  .stage-section .section-heading {
+    margin-bottom: 35px;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .stage-section .stage-box {
+    margin-bottom: 100px;
+    padding: 40px;
+    height: 100px !important;
+  }
+  .stage-section .stage-box.stage-box-active {
+    height: 320px !important;
+  }
+  .case-studies-section .section-heading {
+    margin-bottom: 35px;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .case-studies-section .case-study-box-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .case-studies-section .case-study-box-wrapper#case-study-box-2 {
+    margin-top: 0;
+  }
+  .growth-journey-section .col-12 {
+    padding: 0;
+  }
+  .growth-journey-section .growth-journey-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .growth-journey-section .growth-journey-heading {
+    position: relative;
+    top: 0;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .growth-journey-section .growth-journey-heading h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .growth-journey-section .growth-journey-heading .btn {
+    position: inherit;
+  }
+  .difference-section .section-heading-wrapper .section-heading {
+    margin-bottom: 35px;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .difference-section .difference-box {
+    padding: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .difference-section .difference-box h5 {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .difference-section .difference-box h5:before {
+    top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  .difference-section .difference-box p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .our-capabilities-section {
+    padding: 40px 0;
+  }
+  .our-capabilities-section .our-capabilities-left .capabilities-image img {
+    max-width: 100%;
+  }
+  .our-capabilities-section .our-capabilities-right {
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper {
+    margin-bottom: 25px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .contact-section {
+    padding-top: 0;
+  }
+  .contact-section .section-heading {
+    margin-top: 100px;
+    margin-bottom: 35px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer-logo {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .footer .footer-widgets .widget-box {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .footer .footer-widgets .widget-box h4 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .footer .footer-widgets .widget-box ul li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .main-navigation .menu-wrapper {
+    margin-top: 180px;
+  }
+  .main-navigation .menu-wrapper .menu-items li a {
+    padding-left: 60px;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  .main-navigation .menu-wrapper .menu-items li a:before {
+    top: 30px;
+    width: 20px;
+    height: 20px;
+  }
+}
