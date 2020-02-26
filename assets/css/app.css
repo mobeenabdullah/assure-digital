@@ -11336,9 +11336,11 @@ html {
   }
   .video-section .video-content-wrapper .video-heading .btn {
     display: inline-block;
-    width: 100%;
+    width: calc(100% - 100px);
     position: inherit;
     bottom: 20px;
+    left: auto;
+    right: auto;
     margin-bottom: 20px;
   }
   .video-section .video-content-wrapper .video-heading .btn .btn-text {
