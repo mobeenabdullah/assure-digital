@@ -10358,6 +10358,43 @@ html {
   }
 }
 
+@media screen and (max-width: 1759px) {
+  .btn {
+    padding: 20px 15px;
+    width: 350px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    border-radius: 0;
+    color: #2C3442;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+    overflow: hidden;
+  }
+  .btn.btn-collapsed {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+    line-height: 1.3;
+  }
+  .btn.btn-collapsed .btn-text {
+    position: inherit;
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+  }
+  .btn.btn-collapsed:hover {
+    width: calc(100% - 40px);
+  }
+  .btn.btn-collapsed:hover .btn-text {
+    position: relative;
+    opacity: 1;
+    width: auto;
+  }
+}
+
 .header {
   position: relative;
   -webkit-transition-duration: .3s;
@@ -11099,6 +11136,10 @@ html {
     font-size: 24px;
     line-height: 40px;
   }
+  .video-section .video-content-wrapper .video-heading .btn {
+    left: 20px;
+    bottom: -35px;
+  }
   .video-section .video-player-wrapper {
     max-width: 800px !important;
   }
@@ -11134,6 +11175,16 @@ html {
     height: 35px;
     line-height: 35px;
   }
+  .stage-section .stage-box.stage-box-active .btn {
+    bottom: -35px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+  .case-studies-section .case-study-box-wrapper .case-study-box .btn {
+    font-size: 24px;
+  }
   .case-studies-section .case-study-box-wrapper .case-study-box p {
     padding-left: 30px;
     font-size: 18px;
@@ -11155,6 +11206,10 @@ html {
   .growth-journey-section .growth-journey-heading h3 {
     font-size: 30px;
     line-height: 50px;
+  }
+  .growth-journey-section .growth-journey-heading .btn {
+    bottom: -35px;
+    left: 20px;
   }
   .clients-section .client-box img {
     width: 160px;
@@ -11248,6 +11303,11 @@ html {
     font-size: 24px;
     line-height: 36px;
   }
+  .hero-section .hero-left .btn, .hero-section .hero-right .btn {
+    bottom: 20px;
+    right: auto;
+    left: auto;
+  }
   .hero-section .hero-right {
     height: 300px;
     text-align: center;
@@ -11258,6 +11318,11 @@ html {
   }
   .hero-section .hero-right p:before {
     left: 20px;
+  }
+  .hero-section .hero-right .btn {
+    bottom: 20px;
+    right: auto;
+    left: auto;
   }
   .video-section {
     padding: 20px 0;
@@ -11270,9 +11335,15 @@ html {
     text-align: center;
   }
   .video-section .video-content-wrapper .video-heading .btn {
+    display: inline-block;
+    width: 100%;
     position: inherit;
     bottom: 20px;
     margin-bottom: 20px;
+  }
+  .video-section .video-content-wrapper .video-heading .btn .btn-text {
+    width: auto;
+    opacity: 1;
   }
   .video-section .video-content-wrapper .video-heading h4 {
     padding: 40px 60px;
@@ -11307,6 +11378,9 @@ html {
   .stage-section .stage-box.stage-box-active {
     height: 320px !important;
   }
+  .case-studies-section {
+    margin-bottom: 50px;
+  }
   .case-studies-section .section-heading {
     margin-bottom: 35px;
     max-width: 100%;
@@ -11316,6 +11390,15 @@ html {
   .case-studies-section .case-study-box-wrapper {
     margin-bottom: 30px;
     text-align: center;
+  }
+  .case-studies-section .case-study-box-wrapper .case-study-box .btn {
+    width: 100%;
+  }
+  .case-studies-section .case-study-box-wrapper .case-study-box .btn .btn-text {
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+    width: auto;
   }
   .case-studies-section .case-study-box-wrapper#case-study-box-2 {
     margin-top: 0;
@@ -11341,6 +11424,7 @@ html {
   }
   .growth-journey-section .growth-journey-heading .btn {
     position: inherit;
+    bottom: -15px;
   }
   .difference-section .section-heading-wrapper .section-heading {
     margin-bottom: 35px;
@@ -11392,6 +11476,9 @@ html {
   .contact-section .section-heading {
     margin-top: 100px;
     margin-bottom: 35px;
+  }
+  .contact-section .form-field-button {
+    text-align: center !important;
   }
   .footer {
     margin-top: 50px;

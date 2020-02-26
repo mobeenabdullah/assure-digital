@@ -81,3 +81,48 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 1759px) {
+
+  .btn {
+    padding: 20px 15px;
+    width: 350px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    border-radius: 0;
+    color: #2C3442;
+    transition-duration: .3s;
+    overflow: hidden;
+
+    &.btn-collapsed {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      transition-duration: .3s;
+      line-height: 1.3;
+
+      .btn-text {
+        position: inherit;
+        //left: -100%;
+        //left: 0;
+        display: inline-block;
+        width: 0;
+        opacity: 0;
+      }
+
+      &:hover {
+        width: calc(100% - 40px);
+
+        .btn-text {
+          position: relative;
+          opacity: 1;
+          width: auto;
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 812px) {}
