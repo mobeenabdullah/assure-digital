@@ -11181,4 +11181,52 @@ html {
     font-size: 16px;
     line-height: 30px;
   }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper {
+    margin-bottom: 25px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn .accordion-trigger-icon, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn .accordion-trigger-icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h2 .btn .accordion-trigger-icon i.fa, .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-header h5 .btn .accordion-trigger-icon i.fa {
+    font-size: 14px;
+  }
+  .our-capabilities-section .our-capabilities-right .capabilities-list-wrapper .capabilities-list .card .card-body {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer .footer-widgets .widget-box {
+    margin: 150px 0;
+  }
+  .footer .footer-widgets .widget-box h4 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .footer .footer-widgets .widget-box ul li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .main-navigation .menu-wrapper {
+    margin-top: 180px;
+  }
+  .main-navigation .menu-wrapper .menu-items li a {
+    padding-left: 60px;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  .main-navigation .menu-wrapper .menu-items li a:before {
+    top: 30px;
+    width: 20px;
+    height: 20px;
+  }
 }
