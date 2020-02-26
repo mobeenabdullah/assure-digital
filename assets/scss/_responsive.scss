@@ -1,0 +1,203 @@
+// CONTAINER
+@media screen and (min-width: 1759px) {
+
+  .container {
+    max-width: 1759px;
+  }
+}
+
+@media screen and (max-width: 1759px) {
+
+  // SECTION HEADING
+  .section-heading {
+    padding: 0 60px;
+    max-width: 600px;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  // HERO SECTION
+  .hero-section {
+
+    .hero-left {
+
+      h2 {
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 1.5px;
+
+        &:before {
+          top: -20px;
+        }
+      }
+    }
+
+    .hero-right {
+
+      p {
+        padding: 0 140px;
+        font-size: 12px;
+        line-height: 24px;
+
+        &:before {
+          left: 90px;
+        }
+      }
+    }
+  }
+
+  // VIDEO SECTION
+  .video-section {
+
+    .video-content-wrapper {
+
+      .video-heading {
+        top: 175px;
+        width: 386px;
+        height: 320px;
+
+        h4 {
+          padding: 80px 60px;
+          font-size: 24px;
+          line-height: 40px;
+        }
+      }
+    }
+
+    .video-player-wrapper {
+      max-width: 800px !important;
+
+      .video-trigger {
+
+        .trigger-icon {
+          width: 70px !important;
+          height: 70px !important;
+          line-height: 60px !important;
+          font-size: 30px !important;
+        }
+      }
+
+      p {
+        margin-top: 30px !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        max-width: 550px !important;
+      }
+    }
+  }
+
+  // STAGE SECTION
+  .stage-section {
+
+    .stage-box {
+      padding: 40px;
+      height: 320px !important;
+
+      h4 {
+        padding-left: 40px;
+        margin-bottom: 20px;
+        font-size: 24px !important;
+        line-height: 36px !important;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      .btn {
+        left: 30px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+      }
+    }
+  }
+
+  // CASE STUDIES SECTION
+  .case-studies-section {
+
+    .case-study-box-wrapper {
+
+      .case-study-box {
+
+        p {
+          padding-left: 30px;
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+
+      &#case-study-box-2 {
+        margin-top: 230px;
+      }
+    }
+  }
+
+  // GROWTH JOURNEY SECTION
+  .growth-journey-section {
+
+    .growth-journey-image {
+      max-width: 930px;
+      height: 600px;
+    }
+
+    .growth-journey-heading {
+      top: 100px;
+      padding: 60px;
+      width: 386px;
+      height: 370px;
+
+      h3 {
+        font-size: 30px;
+        line-height: 50px;
+      }
+    }
+  }
+
+  // CLIENTS SECTION
+  .clients-section {
+
+    .client-box {
+
+      img {
+        width: 160px;
+        height: 160px;
+      }
+    }
+  }
+
+  // DIFFERENCE SECTION
+  .difference-section {
+
+    .section-heading-wrapper {
+
+      .section-heading {}
+    }
+
+    .difference-box {
+      padding: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      height: 320px;
+
+      h5 {
+        padding-left: 40px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+
+        &:before {
+          top: 5px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+       p {
+         font-size: 16px;
+         line-height: 30px;
+       }
+    }
+  }
+}
